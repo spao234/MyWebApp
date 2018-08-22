@@ -141,7 +141,7 @@
                             <!-- Logout --> 
                             <li class="nav-item mt-2 ml-3">
                               {% if 'username' in request.session %}
-                                    <a href="logout" class="mt-2"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                                    <a href="{% url 'administrator:viewlogout' %}" class="mt-2"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
                               {% endif %}
                             </li>
                         </ul>

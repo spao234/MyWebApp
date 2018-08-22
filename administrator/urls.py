@@ -9,7 +9,7 @@ urlpatterns = [
     # /login/
     url(r'^$', views.loginindex, name='loginindex'),
     url(r'^blog/$', views.viewlogin, name='viewlogin'),
-    url(r'^logout/$', views.viewlogout, name='viewlogout'),
+    url(r'^log_out/$', views.viewlogout, name='viewlogout'),
     # /blog/
     url(r'^remove/(?P<idpost>[0-9]+)', views.blog_delete, name='blog_delete'),
     url(r'^blog/add/$', views.blog_create, name='blog_create'),
