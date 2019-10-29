@@ -11,7 +11,7 @@ python manage.py runserver
 #Crear SuperUsuario
 python manage.py createsuperuser
 
-# Create new Application /...
+# Create new Application /.......
 python manage.py startapp [NameApplication]
 
 # Syncronized SQLite Database with DJango
